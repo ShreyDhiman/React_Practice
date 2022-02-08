@@ -5,6 +5,7 @@ import Click from "./components/click_count";
 import Add from "./components/add";
 import Form from "./components/gfg";
 // import MyForm from "./components/calc1";
+import Postlist from "./components/axios";
 
 function App() {
   return (
@@ -14,10 +15,12 @@ function App() {
       <br />
       {/* <Form /> */}
       {/* <Message></Message>; */}
-      <MyForm></MyForm>;{/* <Add></Add> */}
+      {/* <MyForm></MyForm>; */}
+      {/* <Add></Add> */}
       {/* <Clock></Clock> */}
       {/* <Click></Click> */}
       {/* <Form></Form> */}
+      <Postlist />
     </div>
   );
 }
