@@ -3,8 +3,9 @@ import Message from "./components/ex";
 import MyForm from "./components/calc";
 import Click from "./components/click_count";
 import Add from "./components/add";
-import Form from "./components/gfg";
-// import MyForm from "./components/calc1";
+import Form from "./components/Form1";
+import MyForm1 from "./components/grading";
+// import Grading from "./components/grading";
 import Postlist from "./components/axios";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       Hello there
       <br />
       <br />
+      <MyForm1 />
       {/* <Form /> */}
       {/* <Message></Message>; */}
       {/* <MyForm></MyForm>; */}
@@ -20,7 +22,7 @@ function App() {
       {/* <Clock></Clock> */}
       {/* <Click></Click> */}
       {/* <Form></Form> */}
-      <Postlist />
+      {/* <Postlist /> */}
     </div>
   );
 }
