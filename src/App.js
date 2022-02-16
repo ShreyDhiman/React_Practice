@@ -4,8 +4,7 @@ import MyForm from "./components/calc";
 import Click from "./components/click_count";
 import Add from "./components/add";
 import Form from "./components/Form1";
-import MyForm1 from "./components/grading";
-// import Grading from "./components/grading";
+// import MyForm from "./components/calc1";
 import Postlist from "./components/axios";
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
       Hello there
       <br />
       <br />
-      <MyForm1 />
       {/* <Form /> */}
       {/* <Message></Message>; */}
       {/* <MyForm></MyForm>; */}
